@@ -1,0 +1,22 @@
+.search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+}
+.todo-list-item-label {
+    color:#283a4e;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+@media(max-width:545px) {
+    .top-panel {
+        flex-direction: column-reverse;
+    }
+    .search-input {
+        margin-right:0;
+    }
+    .todo-list-item-label {
+        margin-left:0;
+        font-size: .9rem;
+    }
+}

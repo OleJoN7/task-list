@@ -1,0 +1,14 @@
+.app-container {
+    height:100vh;
+    background:linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(77,135,151,1) 70%, rgba(52,101,115,1) 88%);;
+}
+.todo-app {
+    padding-top:2rem;
+    max-width:70%;
+    background: transparent;
+    position: relative;
+    z-index:10;
+}
+.top-panel {
+    margin: 1rem 0;
+}

@@ -1,0 +1,19 @@
+.item-add-form {
+    margin-top: 1rem;
+}
+.item-add-form input {
+    margin-right:3px;
+}
+.btn-outline-secondary {
+    color:#093052;
+    border-color:#81b6e4;
+} 
+.btn-outline-secondary:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: transparent; 
+    border-color: #10707f;
+}
